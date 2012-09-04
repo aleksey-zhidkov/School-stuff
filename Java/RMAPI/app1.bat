@@ -1,0 +1,1 @@
+start "app1" java -Dresource_manager_regestry=client -cp "%CLASSPATH%;./bin" com.dob.demo.file.ClientApp 1 0

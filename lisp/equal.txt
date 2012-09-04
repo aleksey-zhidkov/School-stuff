@@ -1,0 +1,6 @@
+(defun equal (x y)
+     (cond ((Atom x) (cond
+                     ((ATOM y) (eq x y))
+                     (t nil)))
+           ((equal (car x)(car y))(eaqual (cdr x) (t nil)
+)

@@ -1,0 +1,80 @@
+(defun horse (path)
+ (print path)
+ (cond
+  ((= (length path) 64) (print path))
+ (T 
+ (cond
+  ((noteq (hstep path 1)) (horse (hstep path 1)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 2)) (horse (hstep path 2)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 3)) (horse (hstep path 3)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 4)) (horse (hstep path 4)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 5)) (horse (hstep path 5)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 6)) (horse (hstep path 6)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 7)) (horse (hstep path 7)))
+  (T nil)
+ ) 
+ (cond
+  ((noteq (hstep path 8)) (horse (hstep path 8)))
+  (T nil)
+ ) 
+ 
+ )
+ )
+)
+
+(defun hstep (path n)
+ (cond
+  ((= n 1) (iscorrect (cons (+ (car (car path)) 1) (+ (cdr (car path)) 2)) path))
+  ((= n 2) (iscorrect (cons (+ (car (car path)) 2) (+ (cdr (car path)) 1)) path))
+  ((= n 3) (iscorrect (cons (+ (car (car path)) 2) (- (cdr (car path)) 1)) path))
+  ((= n 4) (iscorrect (cons (+ (car (car path)) 1) (- (cdr (car path)) 2)) path))
+  ((= n 5) (iscorrect (cons (- (car (car path)) 1) (- (cdr (car path)) 2)) path))
+  ((= n 6) (iscorrect (cons (- (car (car path)) 2) (- (cdr (car path)) 1)) path))
+  ((= n 7) (iscorrect (cons (- (car (car path)) 2) (+ (cdr (car path)) 1)) path))
+  ((= n 8) (iscorrect (cons (- (car (car path)) 1) (+ (cdr (car path)) 2)) path))
+ )
+)
+
+(defun iscorrect (s path)
+ (cond
+  ((eq (member2 s path) t) nil)
+  ((< (car s) 1) nil)
+  ((> (car s) 8) nil)
+  ((< (cdr s) 1) nil)
+  ((> (cdr s) 8) nil)
+  (T (cons s path))
+ )
+)
+
+(defun member2 (x y)
+     (cond
+       ((equal x (car y)) t)
+       ((equal (car y) nil) nil)
+       (T (member2 x (cdr y)))
+     )
+)
+
+(defun noteq (xy)
+   (cond
+    ((eq xy nil) nil)
+    (T T)
+   )
+)

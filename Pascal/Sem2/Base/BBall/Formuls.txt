@@ -1,0 +1,46 @@
+/-----------------------------------------------------------------------\
+  Constanti:
+/-----------------------------------------------------------------------\
+            nu=0.3;  // koifficient trenia vozduha 
+            nu2=0.3;  // koifficient trenia steni
+            rm=0.18; //Radius mecha (v metrah)
+            g=9.8    //Sila pritazhenia zemli (v metrah/secundu)
+            dt=0.005 //Prirashenie vremeni
+            mass=1   //Massa mecha (v kilogrammah)
+            sXmin=40; sXmax=600 //Granici okna po X (v pixelah)
+            sYmin=80; sYmax=400 //Granici okna po y (v pixelah)
+            xmin=0; xmax=26 //Dlina polia (v metrah)
+            ymin=0; ymax=6  //Visota polia (v metrah)
+/-----------------------------------------------------------------------\
+  Formili poleta:
+/-----------------------------------------------------------------------\
+            Vx=Vx+dt*Ax; //Skorost po X
+            Vy=Vy+dt*Ay; //Skorost po y
+            ------------
+            Ax=-nu*Vx;   //Yskorenie po X
+            Ay=-g-nu*Vy; //Yskorenie po Y
+            ------------ 
+            Fi=Fi+dt*W;  //Ygol vrashenia
+            W=W*(1-((dt*nu*rm)/((2/3)*mass*sqr(rm))));
+                        //Skorost vrashenia
+            ------------------------------------------
+            X=X+dt*Vx; //Koordinata po X
+            Y=Y+dt*Vy; //Koordinata po Y
+            ----------
+            Xe=sxmin+((sxmax-sxmin)/(xmax-xmin))*(Vx-xmin);
+                       //Ekrannaia koordinata po X
+            Ye=symax-((symax-symin)/(ymax-ymin))*(Vy-ymin);
+                      //Ekrannaia koordinata po Y
+/-----------------------------------------------------------------------\
+
+Nazhmite anykey dla sleduushey chasty formul
+
+/-----------------------------------------------------------------------\
+  Formuli neuprugovo soudorenia:
+/-----------------------------------------------------------------------\
+            Esli tg(alfa)<2*nu2 -> W  ne izmeniaetsa
+            inache w=w+2nu2*(mass*rm*Vy1)/(2/3*m*rm*rm)
+            Vy2=-Vy1;                   // skorost po Y posle soudorenia
+            Vx2=Vx1+2*nu2*Vy1;          // skorost po X posle soudorenia
+            Vx2=0 esli tg(alfa)<2*nu2;  
+/-----------------------------------------------------------------------\

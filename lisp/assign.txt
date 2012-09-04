@@ -1,0 +1,7 @@
+(defun assign (as x y)
+  (cond
+   ((eq (cdr as) nil) (cons (car as) (cons (cons x y) nil)))
+   ((eq (car (car as)) x) (cons (cons x y) (cdr as)))
+   (T (cons (car as) (assign (cdr as) x y)))
+  )
+)

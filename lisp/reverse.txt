@@ -1,0 +1,6 @@
+(defun revers (l1 l2)
+ (cond
+  ((eq (cdr l1) nil) (cons (car l1) l2))
+  (t (revers (cdr l1) (cons (car l1) l2)))
+ )
+)

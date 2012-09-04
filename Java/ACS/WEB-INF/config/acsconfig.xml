@@ -1,0 +1,39 @@
+<acs-config>
+    <parameters>
+        <param>
+            <param-name>
+                LOG_DIR
+            </param-name>
+            <param-value>
+                D:\lexx\acs-server\Tomcat5\logs\
+            </param-value>
+        </param>
+
+        <param>
+            <param-name>
+                LOGGER_LEVEL
+            </param-name>
+            <param-value>
+                LEVEL_DEBUG
+            </param-value>
+        </param>
+
+        <param>
+            <param-name>
+                ACS_BASE_DIR
+            </param-name>
+            <param-value>
+                D:\Lexx\MW\Programming\Java\ACS\exploded\
+            </param-value>
+        </param>
+
+        <param>
+            <param-name>
+                SERVER_URL
+            </param-name>
+            <param-value>
+                http://localhost/ACS/
+            </param-value>
+        </param>
+    </parameters>
+</acs-config>

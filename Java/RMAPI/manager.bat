@@ -1,0 +1,1 @@
+start "manager" java -cp "%CLASSPATH%;./bin" com.dob.demo.file.ResourceManagerApp

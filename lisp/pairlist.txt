@@ -1,0 +1,22 @@
+(defun start (l1 x y r)
+ (pairlist l1 (revers (aslist x y r) '()))
+)
+(defun pairlist (l1 l2)
+ (cond
+  ((eq (cdr l1) nil) (cons (car l1) l2))
+  (T (cons (car l1) (pairlist (cdr l1) l2)))
+ )
+)
+(defun aslist (x y r)
+ (cond
+  ((eq (cdr x) nil) (cons (cons (car x) (car y)) r))
+  (T (aslist (cdr x) (cdr y) (cons (cons (car x) (car y)) r)))
+ )
+)
+
+(defun revers (l1 l2)
+ (cond
+  ((eq (cdr l1) nil) (cons (car l1) l2))
+  (t (revers (cdr l1) (cons (car l1) l2)))
+ )
+)

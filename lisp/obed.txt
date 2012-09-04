@@ -1,0 +1,23 @@
+(defun obed (l1 l2 r)
+ (add1 l1 l2 r)
+
+)
+
+(defun add1 (l1 l2 r)
+    (cond
+      ((eq (car l1) nil)  (add2 l2 r))
+      (T (add1 (cdr l1) l2 (cons (car l1) r)))
+    )
+)
+
+(defun add2 (l2 r)
+  (cond
+    ((eq (car l2) nil) r)
+    (T 
+      (cond
+          ((eq (member (car l2) r) nil) (add2 (cdr l2) (cons (car l2) r)))
+          (T (add2 (cdr l2) r))
+      )
+    )
+  )
+)

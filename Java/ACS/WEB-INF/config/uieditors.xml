@@ -1,0 +1,23 @@
+<ui-editors>
+    <editor>
+        <class>ru.lexx.acsystem.backend.user.UserManager</class>
+    </editor>
+    <editor>
+        <class>ru.lexx.acsystem.backend.site.MenuManager</class>
+    </editor>
+    <editor>
+        <class>ru.lexx.acsystem.backend.user.SystemGroupsManager</class>
+    </editor>
+    <editor>
+        <class>ru.lexx.acsystem.backend.task.TaskManager</class>
+    </editor>
+    <editor>
+        <class>ru.lexx.acsystem.backend.task.TaskPartitionsManager</class>
+    </editor>
+    <editor>
+        <class>ru.lexx.acsystem.backend.task.TaskDataManager</class>
+    </editor>
+    <editor>
+        <class>ru.lexx.acsystem.backend.site.NewsManager</class>
+    </editor>
+</ui-editors>

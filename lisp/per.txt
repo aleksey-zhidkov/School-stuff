@@ -1,0 +1,11 @@
+(defun per (l1 l2 r)
+ (cond
+  ((eq (car l1) nil) r)
+  (T 
+   (cond
+    ((eq (member (car l1) l2) nil)(per (cdr l1) l2 r))
+    (T  (per (cdr l1) l2 (cons (car l1) r)))
+   )
+  )
+ )
+)

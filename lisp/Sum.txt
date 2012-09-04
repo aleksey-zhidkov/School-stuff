@@ -1,0 +1,5 @@
+(defun f(x N)
+      (cond ((Eq x nil) n)
+            (T (f (cdr x) (+ n 1)))
+      )
+)

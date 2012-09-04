@@ -1,0 +1,7 @@
+(defun member2 (x y)
+     (cond
+       ((equal x (car y)) t)
+       ((equal (car y) nil) nil)
+       (T (member2 x (cdr y)))
+     )
+)

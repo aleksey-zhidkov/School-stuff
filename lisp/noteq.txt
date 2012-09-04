@@ -1,0 +1,6 @@
+(defun noteq (xy)
+   (cond
+    ((eq xy nil) nil)
+    (T T)
+   )
+)

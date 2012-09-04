@@ -1,0 +1,97 @@
+<acspages>
+    <!-- all -->
+    <page>
+        <name>registration</name>
+        <file>all/registration.jsp</file>
+    </page>
+    <page>
+        <name>enter</name>
+        <file>all/enter.jsp</file>
+    </page>
+    <page>
+        <name>sorry</name>
+        <file>sorry.jsp</file>
+    </page>
+    <page>
+        <name>error_message</name>
+        <file>errorMessage.jsp</file>
+    </page>
+    <!-- all -->
+    <!-- user -->
+    <page>
+        <name>updateuser</name>
+        <file>user/updateuser.jsp</file>
+    </page>
+    <page>
+        <name>messages</name>
+        <file>user/messages.jsp</file>
+    </page>
+    <page>
+        <name>viewmessage</name>
+        <file>user/viewmessage.jsp</file>
+    </page>
+    <!-- user -->
+    <!-- student -->
+    <page>
+        <name>gettask</name>
+        <file>student/getTask.jsp</file>
+    </page>
+    <page>
+        <name>sendtask</name>
+        <file>student/sendTask.jsp</file>
+    </page>
+    <page>
+        <name>writemessage</name>
+        <file>student/writemessage.jsp</file>
+    </page>
+    <page>
+        <name>viewstat_user</name>
+        <file>student/viewstat.jsp</file>
+    </page>
+    <page>
+        <name>viewtask</name>
+        <file>student/viewtask.jsp</file>
+    </page>
+    <page>
+        <name>senttasks</name>
+        <file>student/senttasks.jsp</file>
+    </page>
+    <!-- student -->
+    <!-- admin -->
+    <page>
+        <name>acseditablemanag</name>
+        <file>admin/acseditablemanagment.jsp</file>
+    </page>
+    <page>
+        <name>addacseditable</name>
+        <file>admin/updateacseditable.jsp</file>
+    </page>
+    <page>
+        <name>updateacseditable</name>
+        <file>admin/updateacseditable.jsp</file>
+    </page>
+    <page>
+        <name>userhistory</name>
+        <file>admin/userhistory.jsp</file>
+    </page>
+    <page>
+        <name>viewprogram</name>
+        <file>admin/viewprogram.jsp</file>
+    </page>
+    <page>
+        <name>selectuser</name>
+        <file>admin/selectuser.jsp</file>
+    </page>
+    <page>
+        <name>selectgroup</name>
+        <file>admin/selectuser.jsp</file>
+    </page>
+    <page>
+        <name>visualuserstat</name>
+        <file>admin/visualuserstat.jsp</file>
+    </page>
+    <page>
+        <name>activesessions</name>
+        <file>admin/acivesessions.jsp</file>
+    </page>
+</acspages>

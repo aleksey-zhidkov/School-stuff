@@ -1,0 +1,5 @@
+(defun fact (n m)
+   (cond ((eq n 1) m)
+      (T (fact (- n 1) (* n m)))
+   )
+)  

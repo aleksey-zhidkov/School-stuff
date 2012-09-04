@@ -1,0 +1,179 @@
+[GENERAL]
+qnum
+3
+pneed
+5
+[FINISH]
+
+[QUESTION11]
+theory
+Теория
+quest
+Млекопитающее
+answer1
+Медведь
+answer2
+Кит
+answer3
+крокодил
+answer4
+Утконос
+answer5
+Белка
+ranswer
+4
+[FINISH]
+
+[QUESTION12]
+theory
+Теория вторая
+quest
+Млекопитающее второе
+answer1
+Медведь второй
+answer2
+Кит второй
+answer3
+крокодил второй
+answer4
+Утконос второй
+answer5
+Белка второй
+ranswer
+1
+[FINISH]
+
+[QUESTION13]
+theory
+Теория третья
+quest
+Млекопитающее третье
+answer1
+Медведь третий
+answer2
+Кит третий
+answer3
+крокодил третий
+answer4
+Утконос третий
+answer5
+Белка третий
+ranswer
+3
+[FINISH]
+
+[QUESTION21]
+theory
+Теория два один
+quest
+вопрос к теории
+два
+один
+answer1
+Медведь 2.1
+answer2
+Кит 2.1
+answer3
+крокодил 2.1
+answer4
+Утконос 2.1
+answer5
+Белка 2.1
+ranswer
+3
+[FINISH]
+
+[QUESTION22]
+theory
+Теория два два
+quest
+вопрос к теории два два
+answer1
+Медведь 2.2
+answer2
+Кит 2.2
+answer3
+крокодил 2.2
+answer4
+Утконос 2.2
+answer5
+Белка 2.2
+ranswer
+4
+[FINISH]
+
+[QUESTION23]
+theory
+Теория два три
+quest
+вопрос к теории два три
+answer1
+Медведь 2.3
+answer2
+Кит 2.3
+answer3
+крокодил 2.3
+answer4
+Утконос 2.3
+answer5
+Белка 2.3
+ranswer
+5
+[FINISH]
+
+[QUESTION31]
+theory
+Теория три один
+quest
+вопрос к теории три один
+answer1
+Медведь 3.1
+answer2
+Кит 3.1
+answer3
+крокодил 3.1
+answer4
+Утконос 3.1
+answer5
+Белка 3.1
+ranswer
+2
+[FINISH]
+
+[QUESTION32]
+theory
+Теория три два
+quest
+вопрос к теории три два
+answer1
+Медведь 3.2
+answer2
+Кит 3.2
+answer3
+крокодил 3.2
+answer4
+Утконос 3.2
+answer5
+Белка 3.2
+ranswer
+1
+[FINISH]
+
+[QUESTION33]
+theory
+Теория три три
+quest
+вопрос к теории три три
+answer1
+Медведь 3.3
+answer2
+Кит 3.3
+answer3
+крокодил 3.3
+answer4
+Утконос 3.3
+answer5
+Белка 3.3
+ranswer
+5
+[FINISH]

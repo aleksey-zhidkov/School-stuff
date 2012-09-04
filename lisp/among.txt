@@ -1,0 +1,8 @@
+(defun among (x y)
+  (cond
+    ((atom y)(eq x y))
+ 
+    ((among x (car y)) T)
+    (T(among x (cdr y)))
+ )
+)

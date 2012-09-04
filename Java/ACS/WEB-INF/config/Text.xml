@@ -1,0 +1,297 @@
+﻿<!-- Внимание! Данный файл должен быть всегда сохранён в кодировке utf-8!!! -->
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <!-- Buttons -->
+
+    <entry key="delete">Удалить</entry>
+    <entry key="update">Обновить</entry>
+    <entry key="update2">Изменить</entry>
+    <entry key="add">Добавить</entry>
+    <entry key="enter">Войти</entry>
+    <entry key="register">Регистрация</entry>
+    <entry key="view">Смотреть</entry>
+    <entry key="get">Получить</entry>
+    <entry key="send">Отправить</entry>
+    <entry key="acs.index.op_status">Статус операции</entry>
+    <entry key="acs.index.page_loaded">Страница загружена</entry>
+
+    <!-- registration -->
+
+    <entry key="password">Пароль</entry>
+    <entry key="repass">Повторите пароль</entry>
+    <entry key="fio">Фамилия Имя Отчество</entry>
+    <entry key="regsuccess">Поздравляем - регистрация состоялась! Для того чтобы вы могли начать получать задания
+        и отправлять решения, необходимо, чтобы администратор установил вашу группу. Администратор уже получил
+        сообщение о вашей решистрации. Когда ваша группа будет установленна вы так же получите сообщение,
+        пожалуйста, подождите.</entry>
+    <entry key="reg_fail">Регистрация не удалась.</entry>
+    <entry key="registration">Регистрация</entry>
+    <entry key="duplicated_login">Пользователь с данным логином уже существует</entry>
+    <entry key="inc_login">Некорректный логин</entry>
+    <entry key="inc_pass">Некорректный пароль</entry>
+    <entry key="inc_fio">Некорректные ФИО</entry>
+    <entry key="inc_email">Некорректный Email</entry>
+
+    <!-- gettask -->
+
+    <entry key="acs.user.gettask.no_lang">У вашей группы нет доступа к данной странице. Обратитесь к администратору
+        системы.</entry>
+    <entry key="acs.user.gettask.already_have">У вас уже есть задание.</entry>
+    <entry key="acs.user.gettask.your_task">Ваше задание</entry>
+    <entry key="acs.user.gettask.need_resolve_to">Необходимо решить до:</entry>
+    <entry key="acs.user.gettask.partition">Раздел:</entry>
+    <entry key="acs.user.gettask.formulation">Формулировка:</entry>
+    <entry key="acs.user.gettask.formulation_not_null">Формулировка не должна быть пустой!</entry>
+    <entry key="acs.user.gettask.days_to_resolve">Дней для выполнения</entry>
+    <entry key="acs.user.gettask.days_to_resolve_is_number">Количество дней для выполнения это целое число!</entry>
+    <entry key="acs.user.gettask.level_is">Уровень это строка вида \"x-x\", где x принадлежит [2,5]</entry>
+    <entry key="acs.user.gettask.level">Уровень:</entry>
+    <entry key="acs.user.gettask.input">Входные данные:</entry>
+    <entry key="acs.user.gettask.output">Выходные данные:</entry>
+    <entry key="acs.user.gettask.data_format_i">Входные данные должны соответсвовать формату:\n&lt;имя переменной&gt;([real|integer|string|boolean])=&lt;значение&gt;</entry>
+    <entry key="acs.user.gettask.data_format_o">Выходные данные должны соответсвовать формату:\n&lt;имя переменной&gt;([real|integer|string|boolean])=&lt;значение&gt;</entry>
+    <entry key="acs.user.gettask.in_out_link">Входные/выходные данные: </entry>
+    <entry key="acs.user.gettask.editable_name">Задание: </entry>
+    <entry key="acs.user.gettask.gettask">Получить задание</entry>
+    <entry key="acs.user.gettask.notasks">Извините, но наданный момент в системе нет задний не решённых вами.</entry>
+
+    <!-- sendtask -->
+
+    <entry key="no_tasks">У вас нет не решённых заданий</entry>
+    <entry key="check_succsess">Решение верно, ваша оценка:</entry>
+    <entry key="check_fail">Решение не верно.</entry>
+    <entry key="your_task">Ваше задание:</entry>
+    <entry key="program">Исходный код решения:</entry>
+    <entry key="cancel">Отказаться</entry>
+    <entry key="cancel_success">Задание отменено, ваша оценка - 2</entry>
+    <entry key="acs.student.sendtask.new_partition_b">Поздравляем! Вы перешли в следующий раздел!</entry>
+    <entry key="acs.student.sendtask.new_partition_h">Новый раздел!</entry>
+    <entry key="acs.student.sendtask.finish_b">Поздравляем! Вы завершили программу!</entry>
+    <entry key="acs.student.sendtask.finish_h">Программа завершена!</entry>
+    <entry key="acs.student.sendtask.points">Ваша оценка:</entry>
+    <entry key="enter_program">Введите программу!</entry>
+    <entry key="send_program_form">Форма ввода программы</entry>
+    <entry key="cancel_notice">Если вы откажетесь от задания, за него будет выставленна оценка 2</entry>
+
+
+
+    <!-- viewstat -->
+
+    <entry key="acs.user.viewstat_user.user_stat">Статистика пользователя</entry>
+    <entry key="acs.user.viewstat_user.tasks_resolved">Решено задач</entry>
+    <entry key="acs.user.viewstat_user.max_point">Максимальный балл</entry>
+    <entry key="acs.user.viewstat_user.min_point">Минимальный балл</entry>
+    <entry key="acs.user.viewstat_user.avg_point">Средний балл</entry>
+    <entry key="acs.user.viewstat_user.task">Задание</entry>
+    <entry key="acs.user.viewstat_user.points">Оценка</entry>
+    <entry key="acs.user.viewstat_user.date">Дата проверки</entry>
+    <entry key="acs.user.viewstat_user.checked_resolves">Проверенные решения</entry>
+
+
+    <!-- write message to admin -->
+
+    <entry key="write_to_admin">Написать администратору о проблеме</entry>
+    <entry key="message_sent">Сообщение отправленно</entry>
+    <entry key="message_from_user">Сообщение от пользоватлея </entry>
+
+    <!-- index -->
+
+    <entry key="intro">
+        Добро пожаловать в систему контроля решений алгоритмических задач сайта
+        ВКИ НГУ "Stack"! Данная система позволит вам проверить свои знания по
+        курсу "Информатика". Ответы на все ваши вопросы в сможете найти в разделе
+        Информация о системе. Если у вас возникли проблемы при работе с системой,
+        то вы, предварительно зарегестрировавшись, можете отправить сообщение
+        администратору с описанием проблемы.
+    </entry>
+    <entry key="acs.all.index.user">Пользователь</entry>
+    <entry key="acs.all.index.login">Логин:</entry>
+    <entry key="acs.all.index.prog_language">Язык прог-я:</entry>
+    <entry key="acs.all.index.sys_language">Язык системы:</entry>
+    <entry key="acs.all.index.sys_language_ru">русский</entry>
+    <entry key="acs.all.index.group">Группа:</entry>
+    <entry key="acs.all.index.partition">Раздел:</entry>
+
+
+    <!-- menu -->
+
+    <entry key="acs.all.menu.snew">новое)</entry>
+    <entry key="acs.all.menu.mnew">новых)</entry>
+
+    <!--  tableview -->
+
+    <entry key="total_records">Всего записей</entry>
+    <entry key="page">Страница</entry>
+    <entry key="records_on_page">Записей на странице</entry>
+    <entry key="table">Таблица</entry>
+
+    <!-- viewmessages -->
+
+    <entry key="view_logs">Просмотр логов</entry>
+    <entry key="for_interval">За период:</entry>
+    <entry key="from">С</entry>
+    <entry key="to">По</entry>
+    <entry key="include_readed">Включая прочитанные:</entry>
+    <entry key="level">Тип:</entry>
+
+    <!-- viewstatadmin -->
+
+    <entry key="users">Пользователи системы</entry>
+
+    <!-- gettask -->
+
+    <entry key="task_id">Номер</entry>
+    <entry key="task_froml">Формулировка</entry>
+    <entry key="task_days">Дней для выполнения</entry>
+
+    <!-- senttasks -->
+
+    <entry key="acs.user.senttasks.your_programms">Ваши программы:</entry>
+    <entry key="acs.user.senttasks.right">Да</entry>
+    <entry key="acs.user.senttasks.mistake">Нет</entry>
+    <entry key="acs.user.senttasks.source">Исходный код:</entry>
+    <entry key="acs.user.senttasks.date">Дата:</entry>
+    <entry key="acs.user.senttasks.isRight">Решение корректно:</entry>
+    <entry key="acs.user.senttasks.task">Задача:</entry>
+    <entry key="acs.user.senttasks.no_resolved">Не отправленно ни одного решения</entry>
+    <entry key="acs.user.senttasks.user_name">Решения пользователя</entry>
+
+    <!-- viewtask -->
+
+    <entry key="task_gived">Задание выданно:</entry>
+    <entry key="need_resolve_to">Необходимо решить до:</entry>
+    <entry key="formulation">Формулировка:</entry>
+
+    <!-- updateuser -->
+
+    <entry key="acs.user.updateuser.invalid_pass">Неверный пароль</entry>
+    <entry key="acs.user.updateuser.invalid_new_pass">Новые пароли не совпадают</entry>
+    <entry key="acs.user.updateuser.pass_updated">Пароль обновлён</entry>
+    <entry key="acs.user.updateuser.invalid_email">Некорректный email</entry>
+    <entry key="acs.user.updateuser.email_updated">Email обновлён</entry>
+    <entry key="acs.user.updateuser.no_updated">Нечного обновлять: введите новые пароли и/или email</entry>
+
+    <!-- writemessage -->
+
+    <entry key="acs.user.writemessage.success">Сообщение отправленно</entry>
+
+    <!-- messages -->
+
+    <entry key="acs.user.messages.input">Входящие сообщения</entry>
+    <entry key="acs.user.messages.output">Исходящие сообщения</entry>
+    <entry key="acs.user.messages.sentDate">Дата:</entry>
+    <entry key="acs.user.messages.from">От:</entry>
+    <entry key="acs.user.messages.to">Для:</entry>
+    <entry key="acs.user.messages.view">Смотреть</entry>
+    <entry key="acs.user.messages.viewDate">Просмотренно:</entry>
+    <entry key="acs.user.messages.readDate">Прочитанно:</entry>
+    <entry key="acs.user.messages.write">Написать сообщение</entry>
+
+    <!-- viewmessage -->
+
+    <entry key="acs.user.viewmessage.text">Содержание:</entry>
+
+    <!-- usermanag -->
+
+    <entry key="acs.admin.usermanagment.user">Пользователь</entry>
+    <entry key="acs.admin.usermanagment.deleted">удалён</entry>
+    <entry key="acs.admin.usermanagment.inserted">добавлен</entry>
+    <entry key="acs.admin.usermanagment.updated">обновлён</entry>
+    <entry key="acs.admin.usermanagment.deleteError">Извините, произошла ошибка удаления - пользователь не удалён -
+        попробуйте позже</entry>
+    <entry key="acs.admin.usermanagment.login">Логин</entry>
+    <entry key="acs.admin.usermanagment.fio">ФИО</entry>
+    <entry key="acs.admin.usermanagment.email">Е-майл</entry>
+    <entry key="acs.admin.usermanagment.reg_date">Зарагестрирован</entry>
+    <entry key="acs.admin.usermanagment.group">Группа</entry>
+    <entry key="acs.admin.usermanagment.delete">Удалить</entry>
+    <entry key="acs.admin.usermanagment.update">Изменить</entry>
+    <entry key="acs.admin.usermanagment.addlink">Добавить пользователя</entry>
+
+    <!-- adduser -->
+
+    <entry key="acs.admin.adduser.duplicated_login">Пользователь с таким логином уже существует</entry>
+    <entry key="acs.admin.adduser.invalid_login">Некорректный логин. Логин должен содержать только латинские
+        символы</entry>
+    <entry key="acs.admin.adduser.invalid_pass">Некорректный пароль. Первый и второй пароли должны совпадать и они не
+        должны быть пустыми</entry>
+    <entry key="acs.admin.adduser.invalid_fio">Некорректные ФИО</entry>
+    <entry key="acs.admin.adduser.invalid_email">Некорректый Е-майл! Е-майл должен быть вида: myname@myhost.com</entry>
+
+    <!-- addmenu -->
+
+    <entry key="acs.admin.menu.inc_name">Некорректное имя! Имя должно быть не пустым!</entry>
+    <entry key="acs.admin.menu.inc_url">Некорректый URL. Допустимые символы в URL: латински буквы, цифры и символы ";",
+        "?" и "&amp;"</entry>
+    <entry key="acs.admin.menu.inc_rights">Некорректые права. Возможные значения: RIGHTS_NONE, RIGHTS_REGISTERED,
+        RIGHTS_USER, RIGHTS_ADMIN</entry>
+    <entry key="acs.admin.menu.inc_order">Некорректый порядок. Порядок это целое положительное число.</entry>
+
+    <!-- updateuser -->
+
+    <entry key="acs.admin.updateuser.inc_date">Неверная дата! Дата должна быть в формате "гггг-мм-дд"</entry>
+
+    <!-- history -->
+
+    <entry key="acs.admin.history.user">История пользователя:</entry>
+    <entry key="acs.admin.history.event">Событие</entry>
+    <entry key="acs.admin.history.date">Дата</entry>
+
+    <!-- active users -->
+
+    <entry key="acs.admin.active_users.user">Пользователь:</entry>
+    <entry key="acs.admin.active_users.date">Дата последней активности</entry>
+
+    <!-- acseditablemanagment -->
+
+    <entry key="acs.admin.acseditablemanagment.actions">Действия</entry>
+
+    <!-- acseditablemanagment -->
+
+    <entry key="acs.admin.visualuserstat.legend">Легенда</entry>
+
+    <!-- different -->
+
+    <entry key="error">Произошла внутрення ошибка, попробуйте позднее</entry>
+    <entry key="subscription">С уважением Алексей Жидков&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</entry>
+    <entry key="copy">&amp;copy;Алексей Жидков, гр. 304</entry>
+    <entry key="you_are_enter">&lt;span style="color: green"&gt;Вы вошли в систему!&lt;/span&gt;</entry>
+    <entry key="enter_fail">&lt;span style="color: red"&gt;Не верные логин или пароль.&lt;/span&gt;</entry>
+    <entry key="sorry">Извините, но данная страница находится в разработке</entry>
+    <entry key="no">Нет</entry>
+    <entry key="acs.common.back">Назад</entry>
+    <entry key="acs.index.welcome">Добро пожаловать!!!</entry>
+    <entry key="acs.index.you_re_registered">Вы зарегестрированны!</entry>
+    <entry key="acs.admin.stat.no_resolves">Ни один пользователь данной группы не решил ни одного задания!</entry>
+    <entry key="acs.admin.visualstat.users_stat">Статистика пользователя </entry>
+    <entry key="acs.user.stat.graphstat">Графическая статистика</entry>
+
+    <!-- pagenames -->
+
+    <entry key="_page_name">Стартовая</entry>
+    <entry key="enter_page_name">Вход в систему</entry>
+    <entry key="sorry_page_name">Страница в разработке</entry>
+    <entry key="default_page_name">Stack</entry>
+    <entry key="registration_page_name">Регистрация</entry>
+    <entry key="gettask_page_name">Получить задание</entry>
+    <entry key="sendtask_page_name">Отправить решение</entry>
+    <entry key="senttasks_page_name">Отправленные решения</entry>
+    <entry key="viewstat_page_name">Статистика</entry>
+    <entry key="viewstat_user_page_name">Статистика</entry>
+    <entry key="viewtask_page_name">Просмотр задания</entry>
+    <entry key="writemessage_page_name">Отправка сообщения</entry>
+    <entry key="updateuser_page_name">Изменение личных данных</entry>
+    <entry key="messages_page_name">Сообщения</entry>
+    <entry key="viewmessage_page_name">Сообщение</entry>
+    <entry key="usermanag_page_name">Управление пользователями</entry>
+    <entry key="adduser_page_name">Добовление пользователя</entry>
+    <entry key="updateuser_page_name">Изменение пользователя</entry>
+    <entry key="activesessions_page_name">Активные пользователи</entry>
+    <entry key="userhistory_page_name">История пользователя</entry>
+    <entry key="selectuser_page_name">Выбор пользователя</entry>
+    <entry key="selectgroup_page_name">Выбор группы</entry>
+    <entry key="visualuserstat_page_name">Графическая статистика</entry>
+
+</properties>

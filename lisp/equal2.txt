@@ -1,0 +1,7 @@
+(defun equal2 (x y)
+      (cond ((atom x) (cond ((atom y) (eq x y)) (t nil))
+                      )
+            ((equal2 (car x) (car y)) (equal2 (cdr x) (cdr y)))
+            (t nil)
+      )
+)

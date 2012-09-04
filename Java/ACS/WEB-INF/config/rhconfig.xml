@@ -1,0 +1,130 @@
+<request-handler-config>
+
+    <request-context>
+        <factory-class>
+            ru.lexx.acsystem.webinterface.ACSRequestContextFactory
+        </factory-class>
+    </request-context>
+
+    <request-handlers>
+        <factory-class>
+            ru.lexx.acsystem.webinterface.ACSPageHandlerFactory
+        </factory-class>
+        <parameters>
+            <param>
+                <name>enter</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.all.EnterPageHandler</value>
+            </param>
+
+            <param>
+                <name>gettask</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.student.GettaskPageHandler</value>
+            </param>
+
+            <param>
+                <name>logoff</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.user.LogoffPageHandler</value>
+            </param>
+
+            <param>
+                <name>registration</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.all.RegistrationPageHandler</value>
+            </param>
+
+            <param>
+                <name>sendtask</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.student.SendtaskPageHandler</value>
+            </param>
+            <param>
+                <name>viewtask</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.student.ViewtaskPageHandler</value>
+            </param>
+            <param>
+                <name>senttasks</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.student.SenttasksPageHandler</value>
+            </param>
+
+            <param>
+                <name>viewstat_user</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.student.ViewstatPageHandler</value>
+            </param>
+
+            <param>
+                <name>updateuser</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.user.UpdateUserPageHandler</value>
+            </param>
+
+            <param>
+                <name>writemessage</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.user.WriteMessagePageHandler</value>
+            </param>
+
+            <param>
+                <name>messages</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.user.MessagesPageHandler</value>
+            </param>
+
+            <param>
+                <name>viewmessage</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.user.ViewMessagePageHandler</value>
+            </param>
+
+            <param>
+                <name>acseditablemanag</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.ACSEditableManagmentPageHandler</value>
+            </param>
+
+            <param>
+                <name>addacseditable</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.ACSEditableManagmentPageHandler</value>
+            </param>
+
+            <param>
+                <name>updateacseditable</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.ACSEditableManagmentPageHandler</value>
+            </param>
+
+            <param>
+                <name>reload</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.ReloadPageHandler</value>
+            </param>
+
+            <param>
+                <name>userhistory</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.ViewHistroryPageHandler</value>
+            </param>
+
+            <param>
+                <name>selectuser</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.SelectUserPageHandler</value>
+            </param>
+
+            <param>
+                <name>selectgroup</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.SelectGroupPageHandler</value>
+            </param>
+
+            <param>
+                <name>visualuserstat</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.VisualUserStatPageHandler</value>
+            </param>
+
+            <param>
+                <name>activesessions</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.admin.ActiveUsersPageHandler</value>
+            </param>
+
+            <param>
+                <name>viewprogram</name>
+                <value>ru.lexx.acsystem.webinterface.phandlers.student.SenttasksPageHandler</value>
+            </param>
+        </parameters>
+    </request-handlers>
+
+    <error-handling>
+        <handler-class>
+            ru.lexx.acsystem.webinterface.ACSErrorHandler
+        </handler-class>
+    </error-handling>
+
+</request-handler-config>

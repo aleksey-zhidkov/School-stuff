@@ -1,0 +1,4 @@
+Nomer:1; Dlina:22;Kol-vo eltov:4 Ehal greca cherez reku
+Nomer:2; Dlina:22;Kol-vo eltov:5 Vidit greka v reke rak
+Nomer:3; Dlina:23;Kol-vo eltov:5 Sunul greka ruku v reku
+Nomer:4; Dlina:21;Kol-vo eltov:5 Rak za ruku greka cap

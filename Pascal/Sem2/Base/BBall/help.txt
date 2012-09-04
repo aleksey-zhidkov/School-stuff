@@ -1,0 +1,19 @@
+
+/-----------------------------------------------------------------------\
+Menu sostoit iz 5 punctov: start, parametri, graphiki, help i exit.
+/-----------------------------------------------------------------------\
+Podmenu START imeet 2 podpuncta: demonstracia i start. start eto zapusk s 
+ishodnimi parametrami, a demonstracia s zadannimi.
+/-----------------------------------------------------------------------\
+V podmenu PARAMETRI mozhno izmenit sleduushie znachenia: skorostot' po 
+x i y,yskorenie po x i y, nachalnie koordinati x i y, yglovuu skorost' i 
+nachalniy ygol vrashenia.
+/-----------------------------------------------------------------------\
+V podmenu GRAPHIKI vi mozhete posmotret': grahiki skorosti po x ot t, 
+skorosti po y ot t, yskorenia po x ot t, yskorenia po y ot t, ygla vra-
+shenia ot t, skorosti vrashenia ot t, a takzhe vse formuli.
+/-----------------------------------------------------------------------\
+V HELPe vi sechas nahodites.
+/-----------------------------------------------------------------------\
+EXIT - vihod iz programmi.
+\-----------------------------------------------------------------------/

@@ -1,0 +1,14 @@
+(defun map-ch (fn XL) 
+(cond 
+
+      ((null XL) nil)
+
+      (
+	(funcall fn (car xl)) 
+        (cons (car xl) (
+                         map-ch fn (cdr XL) ) )
+      )
+
+      (T (map-ch fn (cdr xl)))
+    )
+)

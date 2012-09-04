@@ -1,0 +1,8 @@
+(defun assoc1 (x al)
+     (
+      cond 
+           ((eq x (car (car al) ) ) (car al))
+           ((eq (cdr al) nil) nil)
+           (T (assoc1 x (cdr al)))
+     )
+)
